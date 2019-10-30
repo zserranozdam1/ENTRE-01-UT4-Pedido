@@ -52,8 +52,7 @@ public class Cliente
      * representación textual del cliente
      */
     public String toString() {
-         
-          
+        return String.format("NOMBRE: %s \n DIRECCION: %s \n CIUDAD: %s \n PROVINCIA: %s ", nombre, direccion, ciudad, provincia); 
     }
     
     /**
